@@ -1,0 +1,65 @@
+<simulation>
+  <control>
+    <duration>10</duration>
+    <startmonth>1</startmonth>
+    <startyear>2000</startyear>
+  </control>
+
+  <archetypes>
+    <spec> <lib>agents</lib> <name>NullInst</name></spec>
+    <spec> <lib>agents</lib> <name>NullRegion</name></spec>
+       <spec> <lib>cycamore</lib> <name>Source</name></spec>
+    <spec> <lib>cycamore</lib> <name>Example</name></spec>
+  </archetypes>
+  
+  <facility>
+    <name>mine</name>
+    <config>
+      <Source>
+        <outcommod>graphite</outcommod>
+        <outrecipe>graphite_rec</outrecipe>
+      </Source>
+    </config>
+  </facility>
+
+  <facility>
+    <name>Dee</name>
+    <config>
+      <Example>
+    <throughput>10</throughput>
+    <storage_time>1</storage_time>
+    <capacity>8</capacity>
+    <incommod>graphite</incommod>
+    <outcommod>stored_graphite</outcommod>
+ </Example>
+    </config>
+  </facility>
+
+ 
+   <region>
+    <name>SingleRegion</name>
+    <config><NullRegion/></config>
+    <institution>
+      <name>SingleInstitution</name>
+      <initialfacilitylist>
+        <entry>
+          <prototype>Dee</prototype>
+          <number>1</number>
+        </entry>
+       
+        <entry>
+          <prototype>mine</prototype>
+          <number>1</number>
+        </entry>
+      </initialfacilitylist>
+      <config><NullInst/></config>
+    </institution>
+  </region>
+  <recipe>
+    <name>graphite_rec</name>
+    <basis>mass</basis>
+    <nuclide> <id>C12</id><comp>1</comp></nuclide>
+  </recipe>
+
+
+</simulation>
