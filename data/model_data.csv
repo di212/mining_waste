@@ -88,10 +88,9 @@ coal,front_waste,aluminum_mining_w,977.6666667,0.005314561,,,,,,"\n@BOOK{Nationa
 coal,front_waste,iron_mining_w,27644.98515,0.150277153,,,,,,https://www.nrel.gov/docs/fy99osti/25119.pdf,,"\n@ARTICLE{Muwanguzi2012-ix,\n title = \""Characterization of chemical composition and microstructure of\n natural iron ore from Muko deposits\"",\n author = \""Muwanguzi, Abraham J B and Karasev, Andrey V and Byaruhanga,\n Joseph K and J{\""o}nsson, P{\""a}r G\"",\n journal = \""International Scholarly Research Notices\"",\n publisher = \""Hindawi\"",\n volume = 2012,\n year = 2012\n}\n",,,,,,,
 coal,oper_need,coal,82414080,448,,"40-90% recovery2, 65% mineral component",316977230.8,,-,"\n@MISC{noauthor_undated-bo,\n title = {Frequently asked questions (FAQs) - U.s. energy Information\n Administration (EIA)},\n abstract = {Energy Information Administration - EIA - Official Energy\n Statistics from the U.S. Government},\n url = {https://www.eia.gov/tools/faqs/faq.php?id=667&t=6}}",,https://www.nrel.gov/docs/fy99osti/25119.pdf,,,https://link.springer.com/article/10.1007/s40789-014-0023-4,,,,www.nap.edu/read/11977/chapter/6
 wind,front_need,aluminum,8026.8,0.183260274,,0.3,,,,https://link.springer.com/article/10.1007/s10098-019-01678-0,,,,,,,,,
-wind,front_need,copper,52.3776,0.001195836,,0.02,,,for brass,https://link.springer.com/article/10.1007/s10098-019-01678-0,,,,,,,,,
 wind,front_need,zinc,26.9824,0.000616037,,0.03,,,for brass,https://www.britannica.com/technology/zinc-processing/Ores,,,,,,,,,
 wind,front_need,concrete,2246400,51.28767123,,67% for cement and concrete contains 21% of cement+ sand+gravel and water,,,,https://link.springer.com/article/10.1007/s10098-019-01678-0,,,,,,,,,
-wind,front_need,copper,5568,0.127123288,,0.02,,,,https://link.springer.com/article/10.1007/s10098-019-01678-1,,,,,,,,,
+wind,front_need,copper,5620.3776,0.128319124,,0.02,,,,https://link.springer.com/article/10.1007/s10098-019-01678-1,,,,,,,,,
 wind,front_need,fiberglass,3490.8,0.07969863,,-,,,,https://link.springer.com/article/10.1007/s10098-019-01678-8,,,,,,,,,
 wind,front_need,iron,588060.4,13.42603653,,0.65,,,,https://link.springer.com/article/10.1007/s10098-019-01678-11,,,,,,,,,
 wind,front_need,paint ,1311.12,0.029934247,,-,,,,https://link.springer.com/article/10.1007/s10098-019-01678-19,,,,,,,,,
