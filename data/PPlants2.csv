@@ -1,4 +1,4 @@
-name,facility_type,capacity,Operating Month,Operating Year,Planned Retirement Month,Planned Retirement Year,coordinate,plant_life,incommod,outcommod,,plant age
+name,facility_type,capacity,Operating Month,Operating Year,Planned Retirement Month,Planned Retirement Year,coordinate,plant_life,,,,plant age
 Sand_Point_WT1,wind,0.5,10,2011,10,2031,"(55.339722,-160.497222)",20,,,,9
 Sand_Point_WT2,wind,0.5,10,2011,10,2031,"(55.339722,-160.497222)",20,,,,9
 Barry_A1CT,gas,170.1,5,2000,5,2030,"(31.0069,-88.0103)",30,,,,20
